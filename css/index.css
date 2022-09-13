@@ -90,16 +90,11 @@
 
 @keyframes lfky {
 	0% {
-		margin-left: -100px;
+		padding-left: 0;
 		color: #FFFFFF;
 	}
-
-	50% {
-		margin-left: 50px;
-		color: #5a5a5a;
-	}
 	100% {
-		margin-left: 0;
+		left: 0;
 	}
 }
 
