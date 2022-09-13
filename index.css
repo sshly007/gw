@@ -1,0 +1,182 @@
+.carousel-indicators li {
+	background-color: #c7c7c7;
+	border: 0px solid #c7c7c7;
+	width: 50px;
+	height: 12px;
+}
+
+.carousel-indicators .active {
+	width: 50px;
+	height: 12px;
+	margin: 0;
+	background-color: #00ffff;
+}
+
+@media (min-width:768px) {
+	.a {
+		display: none;
+	}
+
+	.s41 {
+		display: none;
+	}
+
+	.s43 {
+		display: none;
+	}
+
+}
+
+@media (max-width:768px) {
+	.b {
+		display: none;
+	}
+
+	.ab {
+		display: none;
+	}
+
+	.s41 {
+		display: inline;
+	}
+
+	.s43 {
+		display: inline;
+	}
+
+}
+
+.a {
+	margin-top: 10px;
+	margin-right: 10px;
+	width: 80px;
+}
+
+.b {
+	margin-left: 10px;
+	margin-top: 10px;
+	width: 80px;
+}
+
+.hezi {
+	background-color: #cccccc;
+	height: 370px;
+	border-radius: 20px;
+}
+
+.dhl {
+	undefined position: relative;
+	z-index: 999;
+}
+
+.dhl-ative {
+	undefined position: fixed;
+	top: 0;
+}
+
+.shang {
+	transition: all 0.5s;
+}
+
+.shang:hover {
+	transform: scale(1.1);
+}
+
+#lfkj {
+	animation: lfky 2s;
+	animation-iteration-count: 1;
+	overflow: hidden;
+}
+
+@keyframes lfky {
+	0% {
+		padding-left: 0;
+		color: #FFFFFF;
+	}
+	100% {
+		left: 0;
+	}
+}
+
+.shang:first-child {
+	transition: all 1s;
+	color: #000000;
+	animation: shang 2.5s;
+	animation-iteration-count: 1;
+}
+.shang:nth-child(2) {
+	transition: all 1s;
+	color: #000000;
+	animation: shang 2.2s;
+	animation-iteration-count: 1;
+}
+.shang:nth-child(3) {
+	transition: all 1.5s;
+	color: #000000;
+	animation: shang 1.8s;
+	animation-iteration-count: 1;
+}
+.shang:nth-child(4) {
+	transition: all 2s;
+	color: #000000;
+	animation: shang 1.3s;
+	animation-iteration-count: 1;
+}
+
+
+
+@keyframes shang {
+	0% {
+		right: -500px;
+		color: #FFFFFF;
+	}
+
+	60% {
+		right: 100px;
+		color: #5a5a5a;
+	}
+
+	100% {
+		right: 0px;
+		color: #000000;
+	}
+}
+
+.md1 {
+	background: rgba(0, 0, 0, 0.4);
+	transition: all 0.5s;
+}
+
+.md1:hover {
+	transform: scale(1.1);
+	background: rgba(0, 0, 0, 0.7);
+	color: #f0f0f0;
+}
+
+.md1 button {
+	color: #000000;
+	transition: all 0.5s;
+}
+
+.md1 button:hover {
+	background-color: #18f4ff;
+}
+
+.img_1 {
+	transition: all 0.5s;
+}
+
+.img_1:hover {
+	transform: scale(1.1);
+}
+
+.an {
+	background-color: #FFFFFF;
+	color: #000000;
+	transition: all 0.5s;
+}
+
+.an:hover {
+	transform: scale(1);
+	background-color: #00FFFF;
+}
